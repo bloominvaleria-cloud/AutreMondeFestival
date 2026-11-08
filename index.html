@@ -1,0 +1,310 @@
+<!--comenzamos creando la estrucura basica
+de un documento html escribiendo <html y 
+teclenado enter para autocompletar, lo que creara
+la estructura que se llenara como se menciona a continuación...-->
+
+<!--indica el tipo de docuemnto-->
+<!DOCTYPE html> 
+<!--dentro de l etiqueta html esta todo el contenido del documento html-->
+<html> 
+<!------------encabezado de pagina----------->
+<!--dentro de la etiqueta head esta el encabezado del documento html-->
+<head> 
+	<title>felxbox_01</title> <!--dentro de la etiqueta tittle esta el titulo de la página-->
+	<link rel='stylesheet' href='estilos.css'/> <!--dentro de esta etiqueta esta la referencia a la hoja de estilos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!--viewport para trabajar responsive design-->
+</head>
+
+<!------------body de pagina----------->  
+<!--dentro de la estiqueta body tipicamente esta todo lo que contendra página-->
+<body> 
+
+
+	<!--dentro de la estiqueta header esta todo lo que sera el encanbezado de la página, pudiendo colocarse dentro del body o antes del body-->
+	<header class='menu-container' id="inicio">
+
+      <div class='identificador'>
+        <!----modificar nombre y ruta de la imagen para cambiar el logo por el propio----->
+       <img src="imagenes/logotipo.png">
+      </div>
+
+   <br> <br>
+
+      <div class='ligas-secciones'>
+      	<!----modificar nombre de la seccion acorde a la necesidad----->
+          <a href="#secc1">MUSEO</a>
+          <a href="#secc2">LOUVRE 360°</a>
+          <a href="#secc3">EVENTOS</a>
+          <a href="#secc4">PONENTES</a>
+          <a href="#secc5">CINEMATOGRAFIA</a>
+          <a href="#secc6">LIBROS</a>
+        </div>
+
+    </header>
+ <br> <br>
+
+
+<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen-secc4">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/linea.png" title="Img 4">
+    		</div>
+
+	<!--contenedor que agrupa todos los contenedores que tienen los contenidos de cada sección que aprecen entre el encabezado y pie de pagina-->
+    <main class="secciones">
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc1">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>MUSEO</h1>
+            
+                <br> <br>
+
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>El museo de Louvre, ubicado en París, Francia es el museo más grande del mundo, y uno de los más reconocidos debido a su estructura particular. Se encuentra dentro del antiguo palacio del Louvre, la cual se utilizaba como una fortaleza real.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Este museo tiene una gran colección de obras de arte y piezas antiguas. Entre las cuales se encuentra la famosa Mona Lisa y la Venus de Milo, junto a miles de obras maestras por descubrir.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+
+    	</div>
+
+ <br> <br>
+<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen-secc4">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/rulos.png" title="Img 4" style="width: 100%; height: auto;">
+    		</div>
+
+<!--contenedor para contenidos de cada sección-->
+    <div class='seccion-contenedor' id="secc2">
+        <!--contenedor para el texto de cada sección-->         
+        <div class="texto-secc">
+            <h1>LOUVRE 360°</h1>
+            <br><br>
+
+<div class='seccion-contenedor'>
+    <div class="contenedor-imagen-secc4">
+        <a href="360visualizar.html">
+            <img src="imagenes/img4.png" title="Img 4">
+        </a>
+    </div>
+</div>
+
+            <br><br>
+            <p>Explora el Museo del Louvre en un recorrido virtual de 360°</p>
+        </div>
+    </div>
+
+<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen-secc4">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/divisor1.png" title="Img 4" style="width: 100%; height: auto;">
+    		</div>
+
+
+<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc3">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>EVENTOS</h1>
+
+        <br> <br>
+
+<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/INFOGRAFIA.png" title="INFOGRAFIA">
+        		<!--texto para la imagen-->
+        		<p></p>
+    		</div>
+    <br> <br>
+    <br> <br>
+
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>El museo de Louvre será la sede oficial de Autre Monde, un festival cultural diseñado para combinar el arte y los problemas sociales. Enfocado en la psicología social, la manipulación mediática y el análisis de la conducta.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>La propuesta se divide en tres secciones. Biblioteca crítica: presentación de libros y publicaciones. Voces del pensamiento: Conferencias y mesas de debate. Cine y realidad: Películas y documentales. Estas tres secciones engloban diferentes aristas sobre el impacto social de la conducta colectiva. </p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+
+    	</div>
+  <br> <br>
+  <br> <br>
+
+
+<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen-secc4">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/rulos.png" title="Img 4" style="width: 100%; height: auto;">
+    		</div>
+  <br> <br>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc4">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>SECCIÓN I: BIBLIOTECA CRÍTICA - LIBROS</h1>
+
+  <br> <br>
+
+<!-- Contenedor de la imagen centrado -->
+    <div class="contenedor-imagen-secc4" style="text-align: center;">
+        <!-- El "target='_blank'" hace que se abra en una pestaña nueva -->
+        <a href="https://youtube.com/playlist?list=PLaDjngmfmnlw&si=Hh2kvaLiLwNebLzm">
+            <img src="imagenes/img7.png" title="Ver playlist en YouTube" style="display: inline-block; max-width: 100%; height: auto;">
+        </a>
+        <!--texto para la imagen-->
+        <p></p>
+
+ </div>
+  <br> <br>
+
+
+ <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Un espacio dedicado para analizar, en donde se presentan diferentes tipos de publicaciones, ya sea ensayos o libros, donde se repasan los diferentes mecanismos de persuasión, manipulación y las estructuras de poder que nos rodean. </p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p></p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+        
+ <br> <br>
+
+  <br> <br>
+
+
+<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen-secc4">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/rulos.png" title="Img 4" style="width: 100%; height: auto;">
+    		</div>
+ <br> <br>
+
+
+	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc5">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>SECCION II - VOCES DEL PENSAMIENTO - PONENTES</h1>
+		       
+ <br> <br>
+
+<!-- Contenedor de la imagen centrado -->
+    <div class="contenedor-imagen-secc4" style="text-align: center;">
+        <!-- El "target='_blank'" hace que se abra en una pestaña nueva -->
+        <a href="https://youtube.com/playlist?list=PLeQtT1mMB5Yo&si=rT60YfSEuU7r71fO">
+            <img src="imagenes/img5.png" title="Ver playlist en YouTube" style="display: inline-block; max-width: 100%; height: auto;">
+        </a>
+        <!--texto para la imagen-->
+        <p></p>
+    </div>
+
+ <br> <br>
+
+ <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Se reúnen profesionales, académicos e investigadores para presentar una serie de conferencias. Un espacio para dialogar y debatir las diferentes dinámicas de la psicología social y la conducta de las masas. </p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p></p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		
+
+ <br> <br>
+
+<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen-secc4">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/rulos.png" title="Img 4" style="width: 100%; height: auto;">
+    		</div>
+  <br> <br>
+
+<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc6">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>SECCION III - CINE Y REALIDAD - CINEMATOGRAFIA</h1>
+  
+  <br> <br>
+    		        <!-- Contenedor de la imagen centrado -->
+                        <div class="contenedor-imagen-secc4" style="text-align: center;">
+                        <!-- El "target='_blank'" hace que se abra en una pestaña nueva -->
+                        <a href="https://youtube.com/playlist?list=PLKlAantoqAw0&si=Dhmvd_PEQBqfkhk1" target="_blank">
+                        <img src="imagenes/img6.png" title="Ver playlist en YouTube" style="display: inline-block; max-width: 100%; height: auto;">
+                        </a>
+                        <!--texto para la imagen-->
+                        <p></p>
+                        </div>
+
+  <br> <br>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>En esta sección, podemos visualizar de manera directa el impacto sociopolítico y psicológico del control de la narrativa de los sistemas de poder. Proyecciones y documentales orientados a cuestionar. </p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p></p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    	</div>
+
+<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen-secc4">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/rulos.png" title="Img 4" style="width: 100%; height: auto;">
+    		</div>
+
+ <br> <br>
+
+	<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen-secc4">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/museo.png" title="Img 4" style="width: 100%; height: auto;">
+        		<!--texto para la imagen-->
+        		<p></p>
+    		</div>
+    </main>
+
+    <!------------pie de pagina----------->
+    <!--dentro de la etiqueta footer esta todo lo que sera el pie de página, pudiendo colocarse dentro del body o despues del body-->
+	<footer>
+	   
+	    <div class='footer-item'>
+	      <!----modificar el href para que dirija una pagina especifica de facebook----->
+	      <a href="https://www.facebook.com/">
+	      	<img src="imagenes/fbk.png" title="Facebook">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de twitter----->
+	      <a href="https://twitter.com/">
+	      	<img src="imagenes/twt.png" title="Twitter">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de instagram----->
+	      <a href="http://instagram.com/">
+	      	<img src="imagenes/inst.png" title="Instagram">
+	      </a>
+	    </div>
+
+</footer>
+
+	<!---------enlace que regresa al inicio de la pagina--------->
+	<!--dentro de la etiqueta "a" de tipo enlace esta la imagen que actua como icono que regresa al inicio de la página-->
+	    <a class="ir-arriba" title="Volver arriba" href="#inicio">
+	    	<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	      	<img src="imagenes/SUBIDA.png" style="width: 120px; height: auto;">
+	    </a>
+
+
+
+    <!-- Pie de página con los derechos reservados -->
+    <div style="background-color: black; padding: 60px 0; text-align: center; width: 100%;">
+        <p style="color: #ffffff; font-size: 20px; font-family: sans-serif; text-align: center; margin: 0;">
+            Todos los derechos reservados.
+        </p>
+    </div>
+
+</body>
+</html>

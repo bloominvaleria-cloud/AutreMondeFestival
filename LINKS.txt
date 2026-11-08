@@ -1,0 +1,11 @@
+
+<!-- Contenedor de la imagen que actúa como botón para la playlist -->
+<div class="contenedor-Img6">
+    <!-- El "target='_blank'" hace que se abra en una pestaña nueva -->
+    <a href="https://youtube.com/playlist?list=PLKlAantoqAw0&si=Dhmvd_PEQBqfkhk1" target="_blank">
+        <img src="imagenes/img6.png" title="Ver playlist en YouTube" style="width: 100%; height: auto; display: block;">
+    </a>
+    <!--texto para la imagen-->
+    <p></p>
+</div>
+
