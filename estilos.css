@@ -328,7 +328,6 @@ footer {
   	cursor:pointer;
   	position:fixed;
  	bottom:20px;
-        right: 25px;
         
 }
 /**media query cuando ancho es menor o igual a 700px**/
