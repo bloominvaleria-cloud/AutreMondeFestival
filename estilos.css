@@ -322,17 +322,18 @@ footer {
   	align-items: center; 
 }
 .ir-arriba img{
-  	height: 35px;
+  	height: 60px;
   	padding-right: 30px;
   	text-decoration: none;
   	cursor:pointer;
   	position:fixed;
  	bottom:20px;
+        
 }
 /**media query cuando ancho es menor o igual a 700px**/
 @media screen and (max-width: 700px){
 	.ir-arriba img{
-		height: 30px;
+		height: 50px;
   		padding-right: 0px;
 	}
 }
@@ -341,3 +342,4 @@ footer {
   	transition: 100ms;
 }
 /***************************************************/
+
