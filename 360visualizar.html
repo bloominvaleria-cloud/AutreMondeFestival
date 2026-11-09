@@ -1,16 +1,18 @@
 <html>
     <head>
-        <title>Hola, WebVR! - A-Frame</title>
-        <meta name="description" content="Hello, WebVR! - A-Frame">
-        <!--con este script llamo-importo la libreria A-Frame-->
-        <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+        <title>Visor 360 - Louvre - Autre Monde</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Recorrido virtual 360 del Museo del Louvre">
+        <!-- Cargamos la librería moderna de A-Frame -->
+        <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
     </head>
     <body>
         <a-assets>
-            <img id="MySky" src="AQUI_EL_ENLACE_DIRECTO_DE_POSTIMG">
+            <img id="MySky" src="https://i.postimg.cc/NMdtjb1F/louvre360.jpg">
         </a-assets>
         <a-scene>
             <a-sky src="#MySky"></a-sky>
+            <a-camera position="0 1.6 0"></a-camera>
         </a-scene>
     </body>
 </html>
